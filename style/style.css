@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	font-size: 16px;
+}
+h2{
+	font-weight: 400;
+}
+
+
+.wrapper {
+	display: block;
+	width: 100%;
+	max-width:900px;
+	margin: 0 auto;
+}
+
+#hero {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.logo {
+	float: left;
+}
+
+.menu-nav-outer {
+	float: right;
+}
+.header {
+	overflow: hidden;
+	padding-top: 15px;
+}
+.menu li.menu-item a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+	margin-right: 10px;
+	transition: .5s;
+}
+.menu li.menu-item a:focus,
+.menu li.menu-item a:hover{
+	color: #aaa;
+}
+.menu-item{
+	list-style: none;
+	display: inline-block;
+}
+.menu-item:last-child {
+	margin-right: 0;
+}
+.hero-content {
+	margin-top: 150px;
+	text-align: center;
+}
+.hero-btn {
+	margin: 80px 0 125px;
+	padding: 20px 65px;
+	font-size: 22px;
+	border: 3px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	text-transform: capitalize;
+	border-radius: 4px;
+	transition: .5s;
+}
+.hero-btn:focus,
+.hero-btn:hover{
+	background-color: #fff;
+	color: #aaa;
+}
+
+
+.subheading{
+	font-weight: 100;
+	font-size: 30px;
+}
+.hero-heading {
+	font-size: 64px;
+	font-weight: 500;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+.service-inner {
+	overflow: hidden;
+	padding: 90px 0;
+}
+.id-brand {
+	background-color: #fafafa;
+}
+
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.services-text {
+	width: 65%;
+}
+.services-text h2 {
+	text-transform: capitalize;
+	font-size: 56px;
+}
+.services-paragraph {
+	margin: 35px 0;
+	color: #767676;
+}
+.service-inner img {
+	margin-top: 40px;
+}
+.skill-item {
+	overflow: hidden;
+	width: 50%;
+	display: inline-block;
+	float: left;
+	
+}
+.skill-inner {
+	padding: 0 10px;
+}
+.slill-item img {
+	width: 72px;
+	margin-top: 0;
+}
+.skill-text {
+	width: calc(100% - 85px);
+}
+.skill-text h3{
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.skill-description {
+	color: #767676;
+}
+.row {
+	margin-bottom: 45px;
+	overflow: hidden;
+}
+.clients-section {
+	background-color: #fafafa;
+	overflow: hidden;
+		padding: 90px 0;
+	}
+
+.awe-clients h2 {
+	text-transform: capitalize;
+	font-size: 56px;
+	text-align: center;
+	overflow: hidden;
+}
+.awe-clients p {
+	margin: 20px 0;
+	overflow: hidden;
+	font-size: 18px;
+}
+.serv-paragraph {
+	text-align: center;}
+
+.awe-clients img {
+	width: 220px;
+	margin-top: 0;
+}
+
+.left {
+		float: left;
+}
+.right {
+	float: right;
+}
+.blue-paragraph {
+	overflow: hidden;
+	color: #7690c5;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.speech{
+	overflow: hidden;
+	background-color: white;
+	width: 50%;
+	margin: 40px 5px 40px 5px;
+	padding: 5px 35px;
+  border: 3px solid white;
+}
+
+
+
+
